@@ -1,10 +1,10 @@
 #!/bin/bash
 
-S3_URI=s3://aosnote-sql-files/V1__shopwise.sql
-RDS_ENDPOINT=dev-rds-db.cu2idoemakwo.us-east-1.rds.amazonaws.com
+S3_URI=s3://km-sql-files/V1__shopwise.sql
+RDS_ENDPOINT=dev-rds-db.cpcw0aw4astu.us-east-1.rds.amazonaws.com
 RDS_DB_NAME=applicationdb
-RDS_DB_USERNAME=azeezs
-RDS_DB_PASSWORD=azeezs123
+RDS_DB_USERNAME=admin
+RDS_DB_PASSWORD=password
 
 # Update all packages
 sudo yum update -y
